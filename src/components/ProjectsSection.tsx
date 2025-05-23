@@ -1,4 +1,4 @@
-import { ArrowRight, ExternalLink, Github } from "lucide-react";
+import { ArrowRight,  Github } from "lucide-react";
 
 const projects = [
   {
@@ -7,8 +7,8 @@ const projects = [
     description: "Developed during my Infosys Springboard internship, this web app allows restaurant owners to manage table availability and update order status in real-time.",
     image: "/projects/project1.png",
     tags: ["Angular", "Bootstrap", "Typescript"],
-    demoUrl: "#",
-    githubUrl: "#",
+    // demoUrl: "#",
+    // githubUrl: "#",
   },
   {
     id: 2,
@@ -17,7 +17,7 @@ const projects = [
       "E-commerce platform with user authentication and payment processing.",
     image: "/projects/project2.png",
     tags: ["Angular", "Node.js", "Bootstrap"],
-    demoUrl: "#",
+    // demoUrl: "#",
     githubUrl: "https://github.com/YViswanadh/Ecart",
   },
   {
@@ -27,7 +27,7 @@ const projects = [
       "Developed the front-end of an e-commerce web application simulating the basic functionalities of Amazon. ",
     image: "/projects/project3.png",
     tags: ["HTML", "CSS", "Javascript"],
-    demoUrl: "#",
+    // demoUrl: "#",
     githubUrl: "https://github.com/YViswanadh/Amazon-Front-End-Clone",
   },
 ];
@@ -75,13 +75,13 @@ export const ProjectsSection = () => {
                 </p>
                 <div className="flex justify-between items-center">
                   <div className="flex space-x-3">
-                    <a
+                    {/* <a
                       href={project.demoUrl}
                       target="_blank"
                       className="text-foreground/80 hover:text-primary transition-colors duration-300"
                     >
                       <ExternalLink size={20} />
-                    </a>
+                    </a> */}
                     <a
                       href={project.githubUrl}
                       target="_blank"

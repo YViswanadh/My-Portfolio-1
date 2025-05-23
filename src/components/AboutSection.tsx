@@ -31,10 +31,10 @@ Over the last year, I’ve developed multiple projects using Angular, React.js, 
               </a>
 
               <a
-                href=""
+                href="https://drive.google.com/file/d/1Pk-2BDTzl5hu5P67qImld5Droq10RI3z/view?usp=sharing"
                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
               >
-                Download CV
+                Download Resume
               </a>
             </div>
           </div>
